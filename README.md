@@ -49,5 +49,4 @@ python Assignment_2.py
 - Console logs for patient lifecycle.
 - Average queue lengths and operating theater utilization.
 - A plot of queue lengths over time.
-```
 
