@@ -43,6 +43,8 @@ The simulation parameters are stored in a `config.json` file:
 Run the simulation:
 ```bash
 python Assignment_2.py
+
+python Assignment_3.py
 ```
 
 ## Output
