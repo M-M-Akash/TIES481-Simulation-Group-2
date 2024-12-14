@@ -17,3 +17,13 @@ class Monitor:
         total_time = self.hospital.env.now
         blocked_time = sum(self.hospital.theater_blocked_times)
         return blocked_time / total_time if total_time > 0 else 0
+    
+    def print_configurations(self):
+        return {
+        "num_prep": self.hospital.preparation,
+        "num_recovery": self.hospital.recovery,
+        "interarrival_dist": self.hospital.interarrival_dist,
+        "prep_time_dist": self.hospital.prep_time_dist,
+        "recovery_time_dist": self.hospital.recovery_time_dist,
+        }
+        
